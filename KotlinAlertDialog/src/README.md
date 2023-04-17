@@ -1,15 +1,33 @@
-NOTLAR
-- Toast ufak bir uyarı butonu çıkartmamıza yardımcı olur.
+<h1 align="center">Kotlin AlertDialog Örneği</h1>
 
-Activity Context -> Eğer ki aktivitenin contextini alacaksak; 'this' keywordunu kullanıyoruz.
-        App Context -> Eğer ki appin contextini alacaksak; 'applicationContext' bu gösterimi kullanıyoruz.
+<p align="center">
+    <img src="https://github.com/yucOx/LearnKotlinWMe/raw/main/KotlinAlertDialog/assets/alert_dialog_logo.png" alt="Kotlin AlertDialog Logo">
+</p>
 
-this@mainactivity ise, mainactivity adında bir etiket (label) kullanılarak belirli bir Activity
-sınıfının örneğini ifade eden bir referanstır. Kotlin'de, aynı isme sahip birden fazla sınıfın
-(örneğin, iç içe sınıfların) bulunduğu durumlarda, etiketler kullanarak hangi sınıfın this referansının
-kullanıldığını belirtmek gerekebilir. Bu, iç içe geçmiş sınıfların içinde bulunduğu durumlarda kullanışlı
-olabilir. Özellikle, iç içe sınıfların veya anonim sınıfların bulunduğu durumlarda this@mainactivity
-gibi etiketli referanslar kullanarak, hangi sınıfın this referansına erişilmek istendiğini belirleyebilirsiniz.
+<p align="center">Bu, Kotlin programlama dili kullanılarak Android Studio ortamında geliştirilmiş bir "AlertDialog" (Uyarı Penceresi) örneğidir. Bu örnek, kullanıcıya bir mesaj göstermek ve kullanıcıdan giriş almak gibi kullanışlı dialogları kullanma konusunda bir örnek sunmaktadır.</p>
 
-AlertDialog.Builder sınıfı, bir AlertDialog oluştururken, ilgili Context'i (bağlamı) gerektirir. Bu bağlam, kullanıcının etkileşimde bulunacağı ekranı temsil eder.
-Bu nedenle, this kelimesi, AlertDialog'ın oluşturulduğu sınıfın bağlamını temsil eder ve AlertDialog.Builder'ın doğru bir şekilde çalışabilmesi için gereklidir.
+## Kullanım
+
+Bu örneği kullanmak için aşağıdaki adımları izleyebilirsiniz:
+
+1. Bu reposu klonlayın veya indirin: [https://github.com/yucOx/LearnKotlinWMe.git](https://github.com/yucOx/LearnKotlinWMe.git)
+2. Android Studio'yu açın ve File > Open seçeneğini kullanarak indirdiğiniz projeyi açın.
+3. Projeyi başarıyla açtıktan sonra, "KotlinAlertDialog" adlı modülü seçin ve projeyi derleyin.
+4. Ardından, projeyi bir Android cihazda veya emülatörde çalıştırabilirsiniz.
+5. Uygulama çalıştırıldığında, "AlertDialog" örneğini deneyimleyebilirsiniz.
+
+## Özellikler
+
+Bu Kotlin "AlertDialog" örneği aşağıdaki özellikleri içermektedir:
+
+- Basit bir "Uyarı" dialogu gösterme
+- Kullanıcıdan giriş almak için "Giriş" dialogu gösterme
+- Pozitif ve negatif butonlar ile dialoglara tepki verme
+- Özel layout kullanarak dialogu özelleştirme
+
+## Kütüphaneler
+
+Bu Kotlin "AlertDialog" örneği, aşağıdaki kütüphaneleri kullanmaktadır:
+
+- androidx.appcompat: AndroidX AppCompat kütüphanesi, Android cihazlar için geriye dönük uyumlu bir kullanıcı arayüzü sağlar.
+- androidx.core: AndroidX Core kütüphanesi, Android cihazlarda temel işlevleri destekler.

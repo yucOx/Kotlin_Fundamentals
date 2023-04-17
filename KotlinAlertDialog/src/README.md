@@ -1,8 +1,6 @@
 <h1 align="center">Kotlin AlertDialog Örneği</h1>
 
-<p align="center">
-    <img src="https://github.com/yucOx/LearnKotlinWMe/raw/main/KotlinAlertDialog/assets/alert_dialog_logo.png" alt="Kotlin AlertDialog Logo">
-</p>
+
 
 <p align="center">Bu, Kotlin programlama dili kullanılarak Android Studio ortamında geliştirilmiş bir "AlertDialog" (Uyarı Penceresi) örneğidir. Bu örnek, kullanıcıya bir mesaj göstermek ve kullanıcıdan giriş almak gibi kullanışlı dialogları kullanma konusunda bir örnek sunmaktadır.</p>
 

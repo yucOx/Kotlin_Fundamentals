@@ -1,7 +1,7 @@
 <h1 align="center">LearnKotlinWMe</h1>
 
 <p align="center">
-  <img src="https://brandeps.com/logo-download/K/Kotlin-logo-vector-01.svg" width="200" height="200" alt="Kotlin Logo">
+  <img src="https://brandeps.com/logo-download/K/Kotlin-logo-vector-01.svg" width="100" height="100" alt="Kotlin Logo">
 </p>
 
 <p align="center">

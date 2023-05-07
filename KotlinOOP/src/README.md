@@ -5,4 +5,4 @@
 <ul>
   <li><a href="src/encapsulation">encapsulation</a>: Kapsülleme konusunu ele alan Kotlin örnekleri</li>
 </ul>
-<ul> Constructor ile ilgili örnekler </ul>
+<ul> <li>Constructor ile ilgili örnekler </ul>
